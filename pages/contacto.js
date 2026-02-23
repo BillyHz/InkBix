@@ -23,7 +23,7 @@ const ContactoPage = () => {
 
                 {/* Hero Section */}
                 <section className="py-24 bg-dark relative">
-                    <div className="absolute inset-0 opacity-30 bg-[url('https://images.unsplash.com/photo-1516383740770-fb95863851b2?auto=format&fit=crop&q=80&w=1920')] bg-cover bg-center"></div>
+                    <div className="absolute inset-0 opacity-30 bg-[url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=1920')] bg-cover bg-center"></div>
                     <div className="container mx-auto px-4 relative z-10 text-center">
                         <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mb-4">Contacto</h1>
                         <p className="text-gray-400 max-w-xl mx-auto">¿Listo para empezar? Estás a un mensaje de personalizar tus productos favoritos.</p>

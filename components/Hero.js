@@ -11,7 +11,7 @@ const Hero = () => {
             {/* Background with Overlay */}
             <div className="absolute inset-0 z-0">
                 <img
-                    src="https://images.unsplash.com/photo-1513346038380-2139044cc218?auto=format&fit=crop&q=80&w=1920"
+                    src="https://images.unsplash.com/photo-1563906267088-b029e7101114?auto=format&fit=crop&q=80&w=1920"
                     alt="InkBix Hero"
                     className="w-full h-full object-cover opacity-40 scale-105"
                 />

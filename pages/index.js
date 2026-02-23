@@ -96,7 +96,7 @@ export default function Home() {
                             >
                                 <div className="aspect-square rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white">
                                     <img
-                                        src="https://images.unsplash.com/photo-1620714223084-8dfacc6dfd1d?auto=format&fit=crop&q=80&w=1200"
+                                        src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200"
                                         alt="Taller InkBix"
                                         className="w-full h-full object-cover"
                                     />
@@ -200,7 +200,7 @@ export default function Home() {
                 {/* CTA Section */}
                 <section className="relative py-24 bg-accent overflow-hidden">
                     <div className="absolute inset-0 opacity-20">
-                        <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&q=80&w=1200" alt="CTA" className="w-full h-full object-cover" />
+                        <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&q=80&w=1200" alt="CTA" className="w-full h-full object-cover" />
                     </div>
                     <div className="container mx-auto px-4 relative z-10 text-center">
                         <h2 className="text-3xl md:text-5xl font-heading font-bold text-white mb-8">
@@ -223,10 +223,17 @@ export default function Home() {
                             </h3>
                         </div>
                         <div className="grid grid-cols-2 md:grid-cols-6 gap-2">
-                            {[1, 2, 3, 4, 5, 6].map((i) => (
+                            {[
+                                "1521572163474-6864f9cf17ab",
+                                "1514228742587-6b1558fbed20",
+                                "1584100914186-dc244b4e2d21",
+                                "1572379371012-9710ee7bc595",
+                                "1620714223084-8dfacc6dfd1d",
+                                "1542435503-956c469947f6"
+                            ].map((id, i) => (
                                 <div key={i} className="aspect-square bg-gray-800 overflow-hidden relative group cursor-pointer">
                                     <img
-                                        src={`https://images.unsplash.com/photo-${1514228742587 + i}-6b1558fbed20?auto=format&fit=crop&q=80&w=600`}
+                                        src={`https://images.unsplash.com/photo-${id}?auto=format&fit=crop&q=80&w=600`}
                                         alt="Insta"
                                         className="w-full h-full object-cover group-hover:scale-110 transition-transform"
                                     />

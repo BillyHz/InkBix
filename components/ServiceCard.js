@@ -13,7 +13,7 @@ const ServiceCard = ({ image, category, title, description, href = "/servicios" 
         >
             <div className="aspect-square rounded-2xl overflow-hidden mb-6 relative">
                 <img
-                    src={image}
+                    src={`${image}${image.includes('?') ? '&' : '?'}auto=format&fit=crop&q=80&w=800`}
                     alt={title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
