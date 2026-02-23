@@ -96,8 +96,8 @@ export default function Home() {
                             >
                                 <div className="aspect-square rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white">
                                     <img
-                                        src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200"
-                                        alt="Taller InkBix"
+                                        src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&q=80&w=1200"
+                                        alt="Proceso de Sublimación - Plancha Térmica"
                                         className="w-full h-full object-cover"
                                     />
                                 </div>
@@ -158,8 +158,8 @@ export default function Home() {
                             >
                                 <div className="aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl">
                                     <img
-                                        src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1200"
-                                        alt="Equipo InkBix"
+                                        src="https://images.unsplash.com/photo-1574634534894-89d7576c8259?auto=format&fit=crop&q=80&w=1200"
+                                        alt="Detalle de Impresión InkBix"
                                         className="w-full h-full object-cover"
                                     />
                                 </div>

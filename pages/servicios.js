@@ -16,12 +16,15 @@ const ServiciosPage = () => {
     ];
 
     const products = [
-        { title: "Camiseta Premium", category: "textil", catName: "Textil", image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&q=80&w=800", desc: "Algodón suave con impresión HD." },
-        { title: "Taza de 11oz", category: "ceramica", catName: "Cerámica", image: "https://images.unsplash.com/photo-1514228742587-6b1558fbed20?auto=format&fit=crop&q=80&w=800", desc: "Acabado brillante, apta para lava-vajillas." },
-        { title: "Cojín Artístico", category: "textil", catName: "Textil", image: "https://images.unsplash.com/photo-1584100914186-dc244b4e2d21?auto=format&fit=crop&q=80&w=800", desc: "Cierre invisible y tacto aterciopelado." },
-        { title: "Llavero Metálico", category: "acc", catName: "Accesorios", image: "https://images.unsplash.com/photo-1572379371012-9710ee7bc595?auto=format&fit=crop&q=80&w=800", desc: "Resistente a rayaduras, ideal para promos." },
-        { title: "Mousepad Gamer", category: "acc", catName: "Accesorios", image: "https://images.unsplash.com/photo-1620714223084-8dfacc6dfd1d?auto=format&fit=crop&q=80&w=800", desc: "Superficie de microfibra de alta precisión." },
-        { title: "Termo de Aluminio", category: "ceramica", catName: "Cerámica", image: "https://images.unsplash.com/photo-1493723843671-1d655e7d772f?auto=format&fit=crop&q=80&w=800", desc: "Conserva la temperatura, tapa hermética." },
+        { title: "Camiseta Premium", category: "textil", catName: "Textil", image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab", desc: "Algodón suave con impresión HD de alta durabilidad." },
+        { title: "Taza de 11oz", category: "ceramica", catName: "Cerámica", image: "https://images.unsplash.com/photo-1514228742587-6b1558fbed20", desc: "Acabado brillante, apta para lava-vajillas y microondas." },
+        { title: "Taza Mágica", category: "ceramica", catName: "Cerámica", image: "https://images.unsplash.com/photo-1517142089942-ba376ce32a2e", desc: "Revela tu diseño con el calor. ¡Sorpresa garantizada!" },
+        { title: "Cojín Artístico", category: "textil", catName: "Textil", image: "https://images.unsplash.com/photo-1584100914186-dc244b4e2d21", desc: "Cierre invisible y tacto aterciopelado para tu hogar." },
+        { title: "Botella Deportiva", category: "acc", catName: "Accesorios", image: "https://images.unsplash.com/photo-1602143399827-bd9596a62f77", desc: "Aluminio ligero, ideal para el gimnasio o la oficina." },
+        { title: "Llavero Acrílico", category: "acc", catName: "Accesorios", image: "https://images.unsplash.com/photo-1572379371012-9710ee7bc595", desc: "Resistente a rayaduras, impreso por ambas caras." },
+        { title: "Mousepad Gamer", category: "acc", catName: "Accesorios", image: "https://images.unsplash.com/photo-1620714223084-8dfacc6dfd1d", desc: "Superficie de microfibra de alta precisión para gaming." },
+        { title: "Rompecabezas", category: "acc", catName: "Accesorios", image: "https://images.unsplash.com/photo-1591959800741-6e84d1667104", desc: "Impresión de alta calidad sobre cartón prensado resistente." },
+        { title: "Termo de Acero", category: "ceramica", catName: "Cerámica", image: "https://images.unsplash.com/photo-1493723843671-1d655e7d772f", desc: "Conserva la temperatura por horas, tapa hermética pro." },
     ];
 
     const filteredProducts = activeTab === "all" ? products : products.filter(p => p.category === activeTab);
